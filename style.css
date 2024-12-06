@@ -108,11 +108,11 @@ main{
     }
 
     header {
-        height: 50vh;
+        height: 30vh;
     }
 
     h1 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .btn {
@@ -122,9 +122,9 @@ main{
     }
 
     .number {
-        width: 150px;
-        font-size: 3rem;
-        padding: 1.5rem;
+        width: 100px;
+        font-size: 2rem;
+        padding: 1rem;
     }
 
     main {
@@ -133,9 +133,9 @@ main{
     }
 
     .guess {
-        width: 80%;
-        font-size: 2rem;
-        padding: 2rem;
+        width: 70%;
+        font-size: 1.5rem;
+        padding: 1.5rem;
         
     }
 
