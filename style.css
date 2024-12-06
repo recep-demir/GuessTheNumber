@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: "Press Start 2P", system-ui;
+    background:url('./pexels-photo-176851.jpeg') no-repeat center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    opacity: 0.8;
+    
+}
+
+
+header{
+    position: relative;
+    height: 50vh;
+    border-bottom: 8px solid white;
+}
+
+h1{
+    
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+
+}
+.between{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+.btn{
+    margin-top: 30px;
+  margin-left: 20px;
+  font-family: inherit;
+  font-size: 2rem;
+  padding: 20px 25px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+
+}
+.number{
+position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 180px;
+  background-color: white;
+  color: black;
+  font-size: 4rem;
+  text-align: center;
+  padding: 2rem;
+  transform: translate(-50%,50%);
+  border-radius: 10px;
+}
+
+
+
+main{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.guess{
+    background-color: inherit;
+  border: 5px solid white;
+  font-family: inherit;
+  width: 300px;
+  font-size: 3rem;
+  color: white;
+  padding: 3rem;
+  text-align: center;
+
+}
+
+.right{
+    font-size: 1.3rem;
+}
+.msg{
+    margin-bottom:150px;
+}
+
+.score{
+    line-height: 2;
+}
+
+@media (max-width: 480px) {
+    body {
+       
+        font-size: 0.8rem;
+        height: 100vh;
+    }
+
+    header {
+        height: 50vh;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        font-size: 1.5rem;
+        padding: 15px 20px;
+        
+    }
+
+    .number {
+        width: 150px;
+        font-size: 3rem;
+        padding: 1.5rem;
+    }
+
+    main {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .guess {
+        width: 80%;
+        font-size: 2rem;
+        padding: 2rem;
+        
+    }
+
+    .right {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .msg {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}
